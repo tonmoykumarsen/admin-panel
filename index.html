@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar Design</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Sidebar Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dashboard">
@@ -16,13 +16,13 @@
                 <h2>Admin Panel</h2>
             </div>
             <ul class="nav-links">
-                <li><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-                <li><a href="#"><i class="fas fa-user"></i> Users</a></li>
-                <li><a href="#"><i class="fas fa-box"></i> Products</a></li>
-                <li><a href="#"><i class="fas fa-shopping-cart"></i> Orders</a></li>
-                <li><a href="#"><i class="fas fa-chart-bar"></i> Reports</a></li>
-                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
-                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#"> Users</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#"> Orders</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#"> Settings</a></li>
+                <li><a href="#"> Logout</a></li>
             </ul>
         </div>
 
@@ -31,16 +31,67 @@
             <!-- Profile Section -->
             <div class="top-section">
                 <div class="profile">
-                   <div class="profile-img">
-                    <img src="./Asset/profile.png" alt="Employee Profile">
-                   </div>
-                   <div class="profile-info">
-                    <h2>John Doe</h2>
-                    <p>Designation</p>
-                    <a href="#">Edit Profile</a>
-                   </div>
+                    <div class="profile-img">
+                        <img src="./Asset/profile.png" alt="Employee Profile">
+                    </div>
+                    <div class="profile-info">
+                        <h2>John Doe</h2>
+                        <p>Designation</p>
+                        <a href="#">Edit Profile</a>
+                    </div>
                 </div>
             </div>
+
+            <!-- Info Cards -->
+            <div class="info-cards">
+                <div class="card">
+                    <h3>Employee ID</h3>
+                    <p>EMP-2025</p>
+                </div>
+                <div class="card">
+                    <h3>Department</h3>
+                    <p>IT Support</p>
+                </div>
+                <div class="card">
+                    <h3>Joining Date</h3>
+                    <p>Jan 2022</p>
+                </div>
+            </div>
+            <!-- Attendance Section -->
+            <div class="attendance">
+                <h2>Recent Attendance</h2>
+                <div class="attendance-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Check In</th>
+                                <th>Check Out</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2025-02-05</td>
+                                <td>09:00 AM</td>
+                                <td>06:00 PM</td>
+                                <td>Present</td>
+                            </tr>
+                            <tr>
+                                <td>2025-02-04</td>
+                                <td>09:15 AM</td>
+                                <td>06:30 PM</td>
+                                <td>Present</td>
+                            </tr>
+                            <tr>
+                                <td>2025-02-03</td>
+                                <td>09:00 AM</td>
+                                <td>06:00 PM</td>
+                                <td>Present</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
         </div>
     </div>
 </body>
